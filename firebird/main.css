@@ -188,17 +188,17 @@ p {
 	background-position: -4px -52px;
 }
 .linkedin-hover {
-	background-image: url('images/linkedin-hover.png');
+	background-image: url('Images/linkedin-hover.png');
 }
 .facebook-hover {
-	background-image: url('images/facebook-hover.png');
+	background-image: url('Images/facebook-hover.png');
 }
 .instagram-hover {
-	background-image: url('images/instagram-hover.png');
+	background-image: url('Images/instagram-hover.png');
 }
 
 .jumbo-container {
-	background-image: url(images/showcase-pattern.jpg) ;
+	background-image: url(Images/showcase-pattern.jpg) ;
 	background-repeat: repeat;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.5), 0 3px 5px rgba(150,150,150,0.1);
 	
@@ -233,7 +233,7 @@ p {
 	display: inline-block;
 	color: #A8B2B6;
 	-webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#000000),color-stop(100%,rgba(0,0,0,0.5)));
-	mask: url(../images/mask.svg#dark);
+	mask: url(../Images/mask.svg#dark);
 }
 
 .jumbotron {
