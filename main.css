@@ -265,10 +265,6 @@ p {
 
 
 /* media queries */
-<<<<<<< HEAD:main.css
-@media (max-width: 768px) {
-	h1 {
-=======
 @media (max-width: 1680px){
 	.form-horizontal .control-label {
 		text-align: left;
@@ -287,12 +283,6 @@ p {
 	}
 	.navbar ul, .navbar li, .navbar a:hover {
 		float: none !important;
-	}
-	.navbar a:hover {
-		display: block;
-	}
-	.social-media li {
-		padding: 5px 20px;
 	}
 	.navbar a:hover {
 		display: block;
