@@ -82,7 +82,12 @@ p {
 	position: relative;
 	z-index: 2;
 }
-
+.navbar-toggle {
+	border-color: rgb(19, 19, 21)
+}
+.navbar-toggle .icon-bar {
+	background-color: rgb(200, 200, 200);
+}
 .navbar {
 	background-image: none;
 	background-color: none;
@@ -91,25 +96,19 @@ p {
 	border: none;
 	min-height: 0;
 }
+
 .btn-lg, .navbar ul {
 	padding: 0;
 	margin: 0;
 }
 
-.top ul, .top li {
-	display: inline;
-}
-.top li {
+.navbar li {
 	height: 100%;
 	font-weight: bold;
 	text-decoration: none;
-	border: solid 10px #000000;
-	padding: 0 20px;
 	color: rgb(172, 172, 172);
 	text-shadow: rgba(0, 0, 0, 0.74902) 0px 1px 0px;
 	line-height: 40px;
-	list-style-position: outside;
-	list-style-type: none;
 	border-color: rgb(172, 172, 172);
 	border-style: none;
 	border-width: 0 0 0 0;
@@ -188,17 +187,17 @@ p {
 	background-position: -4px -52px;
 }
 .linkedin-hover {
-	background-image: url('https://raw.githubusercontent.com/michellecv/Firebird/gh-pages/Images/linkedin-hover.png');
+	background-image: url('Images/linkedin-hover.png');
 }
 .facebook-hover {
-	background-image: url('https://raw.githubusercontent.com/michellecv/Firebird/gh-pages/Images/facebook-hover.png');
+	background-image: url('Images/facebook-hover.png');
 }
 .instagram-hover {
-	background-image: url('https://raw.githubusercontent.com/michellecv/Firebird/gh-pages/Images/instagram-hover.png');
+	background-image: url('Images/instagram-hover.png');
 }
 
 .jumbo-container {
-	background-image: url(https://raw.githubusercontent.com/michellecv/Firebird/gh-pages/Images/showcase-pattern.jpg) ;
+	background-image: url('Images/showcase-pattern.jpg');
 	background-repeat: repeat;
 	box-shadow: 0 1px 0 rgba(0,0,0,0.5), 0 3px 5px rgba(150,150,150,0.1);
 	
@@ -266,29 +265,22 @@ p {
 
 
 /* media queries */
-@media (max-width: 640px) {
-	.navbar {
-		float: none;
-	}
+@media (max-width: 768px) {
 	h1 {
 		text-align: center;
 	}
+	.navbar li {
+		white-space: pre-wrap;
+		float: none;
 
-	.navbar-collapse {
-		max-height: 340px;
-		overflow-x: visible;
-		border-top: 1px solid transparent;
-		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-		-webkit-overflow-scrolling: touch;
 	}
-	.btn-lg, .navbar ul {
-		padding-right: 15px;
-		padding-left: 15px;
+	.navbar ul, .navbar li, .navbar a:hover {
+		float: none !important;
 	}
-	.top ul, .top li {
-		display: none;
+	.navbar a:hover {
+		display: block;
 	}
-	.form-group .control-label {
-		col-xs-offset-1
+	.social-media li {
+		padding: 5px 20px;
 	}
 }
