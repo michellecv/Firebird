@@ -265,6 +265,10 @@ p {
 
 
 /* media queries */
+<<<<<<< HEAD:main.css
+@media (max-width: 768px) {
+	h1 {
+=======
 @media (max-width: 1680px){
 	.form-horizontal .control-label {
 		text-align: left;
@@ -274,6 +278,7 @@ p {
 
 @media (max-width: 768px) {
 	h1, .lead h2, .lead p  {
+>>>>>>> master:firebird/main.css
 		text-align: center;
 	}
 	.navbar li {
@@ -283,11 +288,23 @@ p {
 	}
 	.navbar ul, .navbar li, .navbar a:hover {
 		float: none !important;
+<<<<<<< HEAD:main.css
 	}
 	.navbar a:hover {
 		display: block;
 	}
 	.social-media li {
 		padding: 5px 20px;
+	}
+	.lead p {
+		text-justify: inter-word;
+=======
+	}
+	.navbar a:hover {
+		display: block;
+	}
+	.social-media li {
+		padding: 5px 20px;
+>>>>>>> master:firebird/main.css
 	}
 }
