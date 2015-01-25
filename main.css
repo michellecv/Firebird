@@ -284,6 +284,6 @@ p {
 		padding: 5px 20px;
 	}
 	.lead p {
-		text-justify: newspaper;
+		text-justify: inter-word;
 	}
 }
