@@ -265,8 +265,15 @@ p {
 
 
 /* media queries */
+@media (max-width: 1680px){
+	.form-horizontal .control-label {
+		text-align: left;
+	}
+
+}
+
 @media (max-width: 768px) {
-	h1 {
+	h1, .lead h2, .lead p  {
 		text-align: center;
 	}
 	.navbar li {
@@ -283,7 +290,5 @@ p {
 	.social-media li {
 		padding: 5px 20px;
 	}
-	.lead p {
-		text-justify: newspaper;
-	}
+
 }
