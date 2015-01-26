@@ -271,7 +271,6 @@ p {
 	}
 
 }
-
 @media (max-width: 768px) {
 	h1, .lead h2, .lead p  {
 		text-align: center;
