@@ -9,7 +9,8 @@
 		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 		<!-- Optional theme -->
 		<link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.1/slate/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="main.css" />
+		<link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
+ 		<link rel="stylesheet" type="text/css" href="main.css" />
 	  	<title>Firebird Moving Arts</title>
 	</head>
 
@@ -52,18 +53,18 @@
 			<div class="jumbotron">
 				<div class="container">
 					<div class="col-xs-12 col-md-3 logo visible-md visible-lg" >
-						<img src="https://raw.githubusercontent.com/michellecv/Firebird/gh-pages/Images/doubles-Leo.jpg" alt="lyra-doubles" width="100%" />
+						<img src="https://raw.githubusercontent.com/michellecv/Firebird/gh-pages/Images/Fabric-red-Scott-2.jpg" alt="red-fabric-riverbed" width="100%" />
 					</div>
 					<div class="col-xs-12 col-md-9 heads">
 						<div class="col-xs-12 header">
-							<h1>Firebird Moving Arts<small class="visible-md visible-lg">Denver Aerialist </small></h1>
+							<h1>Firebird Moving Arts</h1>
 						</div>
 						<div class="col-xs-12 lead">
 							<h2><b>About Us</b></h2>
 								<br>
 							<p>We are an organization that provides moving arts instruction in yoga, aerial yoga, solo/partner acrobatics, dance and creative aerial arts.
 							<br><br>
-							<small>Need performers for your next event? <a href="#contact">Contact</a> Firebird to book acrobats, aerialists, dancers, fire and hoop performers. Firebird can provide costumes, make up, performers and insured aerial apparatus.</small>
+							Need performers for your next event? <a href="#contact">Contact</a> Firebird to book acrobats, aerialists, dancers, fire and hoop performers. Firebird can provide costumes, make up, performers and insured aerial apparatus.
 							</p>
 						</div>
 					</div>
@@ -159,21 +160,23 @@
 			<div class="col-xs-12 col-md-12">
 				<h2>Testimonials</h2>
 				<br>
+				<div class="col-xs-12 col-sm-6">
 					<blockquote class="pull-left">
 					<p>I always look forward to aerial yoga with Nadja. I enjoy her more restorative style of yoga, plus integrating fabric brings in fun, playfulness, and the ability to go deeper into postures. Nadja does a great job introducing aerial yoga to students who are new to aerial or yoga, and her classes are never the same so I get something new out of them every time.</p>
 					<small>Jen LM.</small>
 					</blockquote>
-				
+
+				</div>
+				<div class="col-xs-12 col-sm-6">
 					<blockquote class="pull-right">
 					<p>I have hired Nadja for several shows, and every time she put on a unique, beautiful, entertaining show. As well as always being professional and delight to work with, I will continue to book her whenever I can!</p>
 					<small>Alexia R.</small>
 					</blockquote>
-
 					<blockquote class="pull-left">
 					<p>Aerial yoga is so amazing! After a class I feel so refreshed. Nadja is a great teacher.</p>
 					<small>Cara B.</small>
 					</blockquote>
-				
+				</div>				
 			</div>
 		</div>
 				<div class="container col-xs-12">
@@ -250,7 +253,11 @@
 				
 				</div>
 		</div>
-	
+	<div class="scroll-top-wrapper ">
+		<span class="scroll-top-inner">
+			<i class="fa fa-2x fa-arrow-circle-up"></i>
+		</span>
+	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -258,5 +265,41 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="bootstrap/bootstrap.min.js"></script>
     <script src="bootstrap/bootstrap.js"></script>
+    <script> 
+	$(function(){
+	 
+		$(document).on( 'scroll', function(){
+	 
+			if ($(window).scrollTop() > 100) {
+				$('.scroll-top-wrapper').addClass('show');
+			} else {
+				$('.scroll-top-wrapper').removeClass('show');
+			}
+		});
+	});
+	</script>
+	<script>
+	$(function(){
+	 
+		$(document).on( 'scroll', function(){
+	 
+			if ($(window).scrollTop() > 100) {
+				$('.scroll-top-wrapper').addClass('show');
+			} else {
+				$('.scroll-top-wrapper').removeClass('show');
+			}
+		});
+	 
+		$('.scroll-top-wrapper').on('click', scrollToTop);
+	});
+	 
+	function scrollToTop() {
+		verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+		element = $('body');
+		offset = element.offset();
+		offsetTop = offset.top;
+		$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+	}
+	</script>
 </body>
 </html>
