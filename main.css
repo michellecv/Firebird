@@ -44,7 +44,7 @@ h2 {
 	text-align: center;
 	margin: 0 auto;
 }
-.lead h2 {
+.lead h2, .lead p {
 	text-align: left;
 }
 hr {
@@ -299,8 +299,8 @@ p {
 	}
 
 }
-@media (max-width: 768px) {
-	h1, .lead h2  {
+@media (max-width: 760px) {
+	h1, .lead h2, .lead p  {
 		text-align: center;
 	}
 	.navbar li {
