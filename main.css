@@ -306,6 +306,7 @@ i{
 }
 .copyright p {
 	line-height: 2em;
+	padding-left: 20px;
 }
 .navbar-static-bottom a:hover {
 	color: rgb(200, 200, 200);
@@ -399,4 +400,8 @@ i{
 	.navbar-text p {
 		text-align: center;
 	}
+	.inspired {
+		float: left !important;
+	}
+
 }
