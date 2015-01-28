@@ -237,7 +237,7 @@ p {
 	display: inline-block;
 	color: #A8B2B6;
 	-webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#000000),color-stop(100%,rgba(0,0,0,0.5)));
-	mask: url('https://raw.githubusercontent.com/michellecv/Firebird/gh-pages/Images/mask.svg#dark');
+	mask: url('http://gantry-framework.org/templates/gantry_site/images/mask.svg#dark');
 }
 
 .jumbotron {
@@ -289,6 +289,41 @@ p {
 
 .well p {
 	text-align: center;
+}
+
+/* Gantry design */
+i.gantry {
+width: 76px;
+height: 31px;
+background-image: url(http://gantry-framework.org/templates/gantry_site/images/logo/logo.png) !important;
+display: inline-block;
+}
+i.gantry span {
+	display: none;
+}
+i{
+	vertical-align: middle;
+}
+.copyright p {
+	line-height: 2em;
+}
+.navbar-static-bottom a:hover {
+	color: rgb(200, 200, 200);
+	float: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	background-image: none;
+	filter: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
 }
 
 /* scroll to top */
