@@ -391,7 +391,12 @@ i{
 		padding: 5px 20px;
 	}
 }
-@medie (max-width: 360px) {
-	margin-bottom: 0px;
-	right: 0px;
+@media (max-width: 480px) {
+	.scroll-top-wrapper {
+		margin-bottom: 0px;
+		left: 0px;
+	}
+	.navbar-text p {
+		text-align: center;
+	}
 }
