@@ -391,6 +391,7 @@ i{
 		padding: 5px 20px;
 	}
 }
-@medie (max-width: 480px) {
-	margin-bottom: 60px;
+@medie (max-width: 360px) {
+	margin-bottom: 0px;
+	right: 0px;
 }
