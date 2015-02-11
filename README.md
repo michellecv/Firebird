@@ -1,4 +1,4 @@
 # firebird
 Files for my first client project website
 
-Final production [link](firebirdmovingarts.com)
+Final production [link](http://firebirdmovingarts.com)
